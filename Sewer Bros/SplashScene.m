@@ -6,13 +6,24 @@
 //  Copyright (c) 2014 Yinhuan Yuan. All rights reserved.
 //
 
-#import "GameScene.h"
+#import "SplashScene.h"
 
-@implementation GameScene
+@implementation SplashScene
 
 -(void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
-    SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+    self.backgroundColor = [SKColor blackColor];
+    NSString *fileName = @"";
+    if (self.frame.size.width == 480) {
+        fileName = @"SewerSplash_480";
+    } else {
+        fileName = @"SewerSplash_568";
+    }
+    SKSpriteNode *splash = [SKSpriteNode spriteNodeWithImageNamed:fileName];
+    splash.name = @"splashNode";
+    splash.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+    [self addChild:splash];
+    /*SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
     
     myLabel.text = @"Hello, World!";
     myLabel.fontSize = 65;
@@ -20,6 +31,7 @@
                                    CGRectGetMidY(self.frame));
     
     [self addChild:myLabel];
+    */
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -47,3 +59,4 @@
 }
 
 @end
+ax

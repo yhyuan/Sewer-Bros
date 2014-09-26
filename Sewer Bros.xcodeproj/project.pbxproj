@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		4CF13EEF19D4F278006B3D26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13EEE19D4F278006B3D26 /* main.m */; };
 		4CF13EF219D4F278006B3D26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13EF119D4F278006B3D26 /* AppDelegate.m */; };
-		4CF13EF519D4F278006B3D26 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13EF419D4F278006B3D26 /* GameScene.m */; };
+		4CF13EF519D4F278006B3D26 /* SplashScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13EF419D4F278006B3D26 /* SplashScene.m */; };
 		4CF13EF719D4F278006B3D26 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4CF13EF619D4F278006B3D26 /* GameScene.sks */; };
 		4CF13EFA19D4F278006B3D26 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13EF919D4F278006B3D26 /* GameViewController.m */; };
 		4CF13EFD19D4F278006B3D26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF13EFB19D4F278006B3D26 /* Main.storyboard */; };
 		4CF13EFF19D4F278006B3D26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF13EFE19D4F278006B3D26 /* Images.xcassets */; };
 		4CF13F0219D4F278006B3D26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF13F0019D4F278006B3D26 /* LaunchScreen.xib */; };
 		4CF13F0E19D4F278006B3D26 /* Sewer_BrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13F0D19D4F278006B3D26 /* Sewer_BrosTests.m */; };
+		4CF13F1919D4F55E006B3D26 /* SewerSplash_480.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF13F1719D4F55E006B3D26 /* SewerSplash_480.png */; };
+		4CF13F1A19D4F55E006B3D26 /* SewerSplash_568.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF13F1819D4F55E006B3D26 /* SewerSplash_568.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +36,8 @@
 		4CF13EEE19D4F278006B3D26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CF13EF019D4F278006B3D26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CF13EF119D4F278006B3D26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CF13EF319D4F278006B3D26 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		4CF13EF419D4F278006B3D26 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		4CF13EF319D4F278006B3D26 /* SplashScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScene.h; sourceTree = "<group>"; };
+		4CF13EF419D4F278006B3D26 /* SplashScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScene.m; sourceTree = "<group>"; };
 		4CF13EF619D4F278006B3D26 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4CF13EF819D4F278006B3D26 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		4CF13EF919D4F278006B3D26 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		4CF13F0719D4F278006B3D26 /* Sewer BrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sewer BrosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF13F0C19D4F278006B3D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CF13F0D19D4F278006B3D26 /* Sewer_BrosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sewer_BrosTests.m; sourceTree = "<group>"; };
+		4CF13F1719D4F55E006B3D26 /* SewerSplash_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SewerSplash_480.png; sourceTree = "<group>"; };
+		4CF13F1819D4F55E006B3D26 /* SewerSplash_568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SewerSplash_568.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +90,12 @@
 		4CF13EEB19D4F278006B3D26 /* Sewer Bros */ = {
 			isa = PBXGroup;
 			children = (
+				4CF13F1719D4F55E006B3D26 /* SewerSplash_480.png */,
+				4CF13F1819D4F55E006B3D26 /* SewerSplash_568.png */,
 				4CF13EF019D4F278006B3D26 /* AppDelegate.h */,
 				4CF13EF119D4F278006B3D26 /* AppDelegate.m */,
-				4CF13EF319D4F278006B3D26 /* GameScene.h */,
-				4CF13EF419D4F278006B3D26 /* GameScene.m */,
+				4CF13EF319D4F278006B3D26 /* SplashScene.h */,
+				4CF13EF419D4F278006B3D26 /* SplashScene.m */,
 				4CF13EF619D4F278006B3D26 /* GameScene.sks */,
 				4CF13EF819D4F278006B3D26 /* GameViewController.h */,
 				4CF13EF919D4F278006B3D26 /* GameViewController.m */,
@@ -210,6 +216,8 @@
 				4CF13F0219D4F278006B3D26 /* LaunchScreen.xib in Resources */,
 				4CF13EFF19D4F278006B3D26 /* Images.xcassets in Resources */,
 				4CF13EF719D4F278006B3D26 /* GameScene.sks in Resources */,
+				4CF13F1A19D4F55E006B3D26 /* SewerSplash_568.png in Resources */,
+				4CF13F1919D4F55E006B3D26 /* SewerSplash_480.png in Resources */,
 				4CF13EFD19D4F278006B3D26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +238,7 @@
 			files = (
 				4CF13EFA19D4F278006B3D26 /* GameViewController.m in Sources */,
 				4CF13EF219D4F278006B3D26 /* AppDelegate.m in Sources */,
-				4CF13EF519D4F278006B3D26 /* GameScene.m in Sources */,
+				4CF13EF519D4F278006B3D26 /* SplashScene.m in Sources */,
 				4CF13EEF19D4F278006B3D26 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
